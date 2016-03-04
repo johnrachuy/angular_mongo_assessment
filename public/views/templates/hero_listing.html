@@ -1,0 +1,11 @@
+<h1>Listing</h1>
+
+<div ng-repeat="hero in heroes">
+    <h3>{{hero.alias}}</h3>
+    <p>{{hero.first_name}}</p>
+    <p>{{hero.last_name}}</p>
+    <p>{{hero.city}}</p>
+    <p>{{hero.primary_power}}</p>
+    <p>{{hero.power_name}}</p>
+    <button ng-click="delete(hero._id)">Remove hero</button>
+</div>
